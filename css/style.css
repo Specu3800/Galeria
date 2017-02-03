@@ -1,0 +1,241 @@
+body {
+	background-color: #1b1714;
+	font-family: 'Lato', sans-serif;
+	color: #F9FFE9;
+
+}
+
+nav {
+	width: 100%;
+	height: 50px;
+	margin-bottom: 20px;
+	padding: 0px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background-color: #211d1c;
+	border: 0;
+	border-radius: 5px;
+	box-sizing: border-box;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+	z-index: 5;
+}
+
+#navTable{
+	width: 100%;
+	height: 50px;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+#menuTable{
+	width: 100%;
+	height: 50px;
+	margin: 0 auto;
+	padding: 0px;
+	text-align: left;
+	
+}
+
+#logTable{
+	width: 100%;
+	height: 50px;
+	margin: 0 auto;
+	padding: 0px;
+	text-align: right;
+	
+}
+
+
+header{
+	width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+}
+h2 {
+	text-align: center;
+}
+a {
+    text-decoration: none;
+    font-size: 16px;
+	text-align: right;
+}
+
+a:link, a:visited, a:active{
+	color: #F9FFE9;
+    text-decoration: none;
+    font-size: 16px;
+	text-align: right;
+}
+
+a:hover {
+	color: #9EBF6D;
+}
+
+section {
+	min-width: 63%;
+	max-width: 1200px;
+	min-height: 500px;
+	margin: auto;
+	margin-top: 70px;
+	margin-BOTTOM: 70px;
+	background-color: #00000000;
+	z-index: 0;
+}
+
+article {
+	min-width: 52%;
+	max-width: 1200px;
+	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #211d1c;
+	border: 0;
+	border-radius: 5px;
+	box-sizing: border-box;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+	z-index: 1;
+}
+
+.form{
+	min-width: 49%;
+	max-width: 1050px;
+	margin: 0 auto;
+}
+
+
+input[type=text], input[type=email], input[type=password], input[type=file], input[type=number], select, textarea {
+	max-width: 700px;
+	width: calc(100% - 50px);
+    padding: 12px 20px;
+    margin: auto;
+    background-color: #1b1714;
+	passition: fixed;
+	color: #F9FFE9;
+    display: inline-block;
+    box-sizing: border-box;
+	border: 0;
+	border-radius: 5px;
+}
+
+
+input[type=submit]{
+    margin: auto;
+	width: 150px;
+    background-color: #1b1714;
+    border: none;
+    color: #F9FFE9;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+	border: 0;
+	border-radius: 5px;
+}
+.button{
+	width: 200px;
+}
+
+.deleteButton{
+	width: 180px;
+	float: left;
+}
+
+.formTable {
+	width: 1000px;
+	margin: 0 auto;
+}
+.formTableTh1 {
+	width: 300px;
+}
+.formTableTh2 {
+	width: 700px;
+}
+
+
+
+input[type=submit]:hover {
+   
+	color: #9EBF6D;;
+}
+
+footer {
+	width: 100%;
+	margin: 0 auto;
+	position: fixed;
+	left: 0px;
+    bottom: 0px;
+	text-align: center;
+	background-color: #211d1c;
+	color: #F9FFE9; 
+	border: 0px;
+	border-radius: 5px;
+    font-size: 22px;
+	border: 0;
+	border-radius: 5px;
+	box-sizing: border-box;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+	z-index: 5;
+}
+
+.footerTable{
+	width: 100%;
+	margin: 0 auto;	
+	border: 0;
+	border-radius: 5px;
+	box-sizing: border-box;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.footerRow {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.footerColumn {
+	width: 100%;
+	height: 35px;
+	margin: 0 auto;
+    cursor: pointer;
+	background-color: #211d1c;
+
+}
+
+
+.image {
+	position: relative;
+	display: inline-block;
+	margin: 8.6px;
+	width: 180px;	
+	border: 0;
+	border-radius: 5px;
+}
+
+.text {
+	position: absolute;
+	display: none;
+	top: 0;
+	left: 0;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #1b1714;
+	color: #F9FFE9;
+	opacity: 0.6;
+	width: 180px;
+	height: 180px;
+	text-align: center;	
+}
+
+.innerText{
+	margin: 0 auto;
+	margin-top: 25%;
+}
+
+.image:hover > .text
+{
+	display: inline-block;
+}
